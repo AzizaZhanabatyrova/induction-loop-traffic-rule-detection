@@ -34,7 +34,7 @@ The model was evaluated on both simulated (SUMO/LuST, Luxembourg) and real-world
 
 For a structural walkthrough of the pipeline from tensor 
 construction through the loss function, see 
-[`docs/pseudocode.md`](docs/pseudocode.md).
+[`pseudocode.md`](pseudocode.md).
 
 <details>
 <summary>Quick preview</summary>
