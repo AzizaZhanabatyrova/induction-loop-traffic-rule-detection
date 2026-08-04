@@ -52,11 +52,11 @@ construction through the loss function, see
 
 Experiments on simulated data 
 
-<img src="figures/simulated_ablation.png" alt="Pipeline Diagram" width="750"/>
+<img src="figures/simulated_ablation.png" alt="Pipeline Diagram" width="650"/>
 
 Experiments on real-world data 
 
-<img src="figures/real_data.png" alt="Pipeline Diagram" width="600"/>
+<img src="figures/real_data.png" alt="Pipeline Diagram" width="500"/>
 
 Achieved F1‑scores above 80% in detection and over 75% in multi‑class classification, validated on both simulated (SUMO/LuST, Luxembourg) and real‑world (HERE Traffic API) datasets.
 
