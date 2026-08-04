@@ -23,7 +23,7 @@ The model was evaluated on both simulated (SUMO/LuST, Luxembourg) and real-world
 
 ## Why this matters
 
-- **Cost-effective**: no need for camera fleets or manual surveying — induction loops are already deployed in most cities
+- **Cost-effective**: no need for camera fleets or manual surveying, induction loops are already deployed in most cities
 - **Privacy-preserving**: unlike GPS traces from taxis/buses, this approach doesn't track individual vehicles
 - **Applicable to**: autonomous driving map maintenance, smart city infrastructure monitoring, urban traffic anomaly detection, digital twin systems
 
