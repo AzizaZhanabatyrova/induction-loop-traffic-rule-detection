@@ -108,10 +108,11 @@ Can this run in real time? The current pipeline processes data in offline batche
 **Google Scholar**  
 [https://scholar.google.com/](https://scholar.google.com/citations?user=2mTrGJMAAAAJ&hl=en)
 
-<strong>Email:</strong> <a href="mailto:zhanabatyrova@gmail.com">zhanabatyrova@gmail.com</a>
+**Email:** [zhanabatyrova@gmail.com](mailto:zhanabatyrova@gmail.com)
 
-**LinkedIn**  
-[https://www.linkedin.com/]([https://scholar.google.com/citations?user=2mTrGJMAAAAJ&hl=en](https://www.linkedin.com/in/azizazhanabatyrova/)
+**LinkedIn** 
+[https://www.linkedin.com/](https://www.linkedin.com/in/azizazhanabatyrova/)
+
 ---
 
 *This repository accompanies the published paper above. For questions about the method or data, feel free to open an issue.*
