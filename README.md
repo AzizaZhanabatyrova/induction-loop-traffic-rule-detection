@@ -33,7 +33,7 @@ To make the paper more accessible, here are slides from an internal lab presenta
 
 If you find this work useful, please cite:
 
-###BIBTEX
+### BIBTEX
 ```bibtex
 @inproceedings{zhanabatyrova2023detecting,
   title={Detecting and Classifying Changes in Traffic Rules using Induction Loop Data},
@@ -44,7 +44,7 @@ If you find this work useful, please cite:
   organization={IEEE}
 }
 ```
-###APA
+## #APA
 ```apa
 Zhanabatyrova, A., Leite, C., & Xiao, Y. (2023, December). Detecting and Classifying Changes in Traffic Rules using Induction Loop Data. In 2023 IEEE International Conference on Big Data (BigData) (pp. 1248-1255). IEEE.
 ```
