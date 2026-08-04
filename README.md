@@ -30,6 +30,24 @@ The model was evaluated on both simulated (SUMO/LuST, Luxembourg) and real-world
 ![Pipeline Overview](figures/method.png) 
 *Sliding‑window data processing and prediction workflow.*
 
+## Pseudocode
+
+For a structural walkthrough of the pipeline — from tensor 
+construction through the loss function — see 
+[`code/pseudocode.md`](code/pseudocode.md).
+
+<details>
+<summary>Quick preview</summary>
+
+1. Input tensor construction
+2. Multi-pooling down-sampling
+3. 3D overlapping sliding windows + augmentation
+4. Model: 3D U-Net + stateful ConvLSTM + residual connections
+5. Class-imbalance-aware weighted loss
+6. Confidence-weighted prediction aggregation
+
+</details>
+
 ## Key results
 
 Experiments on simulated data 
