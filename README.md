@@ -105,8 +105,7 @@ Why induction loops? They’re already deployed in most cities and don’t track
 Can this run in real time? The current pipeline processes data in offline batches; the paper's Section V-D discusses potential directions like handling transient change dynamics and closing the simulated-to-real domain gap.
 
 ## 📬 Contact
-**Google Scholar**  
-[https://scholar.google.com/](https://scholar.google.com/citations?user=2mTrGJMAAAAJ&hl=en)
+**Google Scholar** [https://scholar.google.com/](https://scholar.google.com/citations?user=2mTrGJMAAAAJ&hl=en)
 
 **Email:** [zhanabatyrova@gmail.com](mailto:zhanabatyrova@gmail.com)
 
