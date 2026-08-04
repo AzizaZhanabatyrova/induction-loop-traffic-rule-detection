@@ -71,6 +71,13 @@ Zhanabatyrova, A., Leite, C., & Xiao, Y. (2023, December). Detecting and Classif
 
 `traffic anomaly detection` `change detection` `deep learning` `U-Net` `ConvLSTM` `spatio-temporal data` `smart city` `urban sensing` `induction loop sensors` `traffic sign detection` `digital map maintenance` `map updating` `autonomous driving` `HD maps` `intelligent transportation systems` `traffic flow prediction` `class imbalance` `tensor-based learning` `SUMO traffic simulation` `HERE Traffic API`
 
+❓ FAQ
+Why induction loops? They’re already deployed in most cities and don’t track individuals.
+Can this run in real time? Future work includes optimizing SLAM integration for real‑time performance.
+
+📬 Contact
+Google Scholar (https://scholar.google.com/citations?user=2mTrGJMAAAAJ&hl=en)
+Email: zhanabatyrova@gmail.com
 ---
 
 *This repository accompanies the published paper above. For questions about the method or data, feel free to open an issue.*
