@@ -54,7 +54,7 @@ construction through the loss function, see
 
 ## Minimal Demo
 
-A small, from-scratch PyTorch demo (`code/demo_convlstm_synthetic.py`) 
+A small, from-scratch PyTorch demo [`code/demo_convlstm_synthetic.py`](code/demo_convlstm_synthetic.py) 
 illustrating the ConvLSTM-based spatio-temporal detection idea from 
 the paper, trained on synthetic data. **Not** the original 
 implementation or dataset - see the file's docstring for details.
