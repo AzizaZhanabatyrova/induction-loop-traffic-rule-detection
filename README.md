@@ -24,7 +24,7 @@ The model was evaluated on both simulated (SUMO/LuST, Luxembourg) and real-world
 - **Applicable to**: autonomous driving map maintenance, smart city infrastructure monitoring, urban traffic anomaly detection, digital twin systems
 
 ## Method overview
-![Induction Loop Detector](figures/induction_loop.png) 
+![Induction Loop Detector](figures/induction_loop.png) <br>
 *Illustration of how induction loops detect passing or stationary vehicles.*
 
 ![Pipeline Overview](figures/method.png) 
@@ -32,9 +32,10 @@ The model was evaluated on both simulated (SUMO/LuST, Luxembourg) and real-world
 
 ## Key results
 Experiments on simulated data 
+
 <img src="figures/simulated_ablation.png" alt="Pipeline Diagram" width="750"/>
 
-Experiments on real-world data
+Experiments on real-world data 
 
 <img src="figures/real_data.png" alt="Pipeline Diagram" width="600"/>
 
