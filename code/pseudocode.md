@@ -1,4 +1,4 @@
-# Method — Pseudocode Overview
+# Method - Pseudocode Overview
 
 This document describes, at an algorithmic level, the method proposed in:
 
@@ -8,7 +8,7 @@ This document describes, at an algorithmic level, the method proposed in:
 
 It mirrors the structure of Section III of the paper and Figure 1
 (Training Pipeline Overview). This is a **structural summary**, not
-an implementation — variable names follow the paper's own notation
+an implementation - variable names follow the paper's own notation
 (`X`, `Y`, `t,i,j,s,c`) so it can be read alongside the manuscript.
 The underlying training code is not published here, as it was
 developed as part of university-funded research.
@@ -47,7 +47,7 @@ def build_input_tensor(occupancy, speed, road_mask):
 
 ---
 
-## 2. Data Preprocessing — Multi-Pooling Down-sampling
+## 2. Data Preprocessing - Multi-Pooling Down-sampling
 
 Raw resolution is far too sparse and large to learn from directly
 (~83% of the grid is non-road). Down-sampling combines **three**
@@ -122,7 +122,7 @@ def augment(x_win, y_win, prob=0.3):
 
 ---
 
-## 4. Model — Modified 3D U-Net + Stateful ConvLSTM
+## 4. Model - Modified 3D U-Net + Stateful ConvLSTM
 
 A U-Net backbone is extended from 2D to 3D (time as an extra axis),
 with residual connections in every conv/deconv block and a stateful
@@ -161,7 +161,7 @@ def build_model(input_shape, num_classes):
 
 ---
 
-## 5. Loss Function — Class-Imbalance-Aware Weighted BCE
+## 5. Loss Function - Class-Imbalance-Aware Weighted BCE
 
 Because "no change" vastly outnumbers "change" instances, a random
 subsampling mask is generated per training step so the loss ignores
@@ -209,7 +209,7 @@ def weighted_bce_loss(Y, Y_hat, W):
 ## 6. Prediction Confidence Weighing (Inference-time)
 
 At inference, predictions are aggregated over a rolling time window
-(paper uses 4 hours), weighted by traffic occupancy — higher
+(paper uses 4 hours), weighted by traffic occupancy - higher
 occupancy = more informative signal = more trustworthy prediction.
 
 ```python
@@ -276,7 +276,7 @@ def evaluate(model, test_windows):
 
 ---
 
-## Reference — Key Hyperparameters (from the paper)
+## Reference - Key Hyperparameters (from the paper)
 
 | Parameter | Value |
 |---|---|
