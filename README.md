@@ -23,6 +23,12 @@ The model was evaluated on both simulated (SUMO/LuST, Luxembourg) and real-world
 - **Privacy-preserving**: unlike GPS traces from taxis/buses, this approach doesn't track individual vehicles
 - **Applicable to**: autonomous driving map maintenance, smart city infrastructure monitoring, urban traffic anomaly detection, digital twin systems
 
+## 📊 Research Talk Slides
+To make the paper more accessible, here are slides from an internal lab presentation summarizing the work:
+
+![Title Slide](slides/title.png)  
+[Download Full Slides (PDF)](slides/presentation.pdf)
+
 ## Citation
 
 If you find this work useful, please cite:
