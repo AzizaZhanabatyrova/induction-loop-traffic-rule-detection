@@ -32,6 +32,7 @@ The model was evaluated on both simulated (SUMO/LuST, Luxembourg) and real-world
 
 ## Key results
 ![Simulated data](figures/simulated_ablation.png)
+![Real data](figures/real_data.png)
 
 ## Research Talk Slides
 To make the paper more accessible, here are slides from an internal lab presentation summarizing the work: 
