@@ -2,10 +2,12 @@
 
 **Deep learning for smart city map maintenance: detecting road blockages and traffic sign changes from urban sensor data - without cameras or GPS traces.**
 
-**Stack:** Python · TensorFlow · U-Net · ConvLSTM · SUMO
-
 📄 Published paper: [IEEE Xplore](https://doi.org/10.1109/BigData59044.2023.10386419) · *Proceedings of the 2023 IEEE International Conference on Big Data (BigData 2023)*
 
+![Python](https://img.shields.io/badge/Python-3.8-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.12-orange)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Paper](https://img.shields.io/badge/paper-IEEE%20BigData%202023-lightgrey)
 ---
 
 ## Overview
