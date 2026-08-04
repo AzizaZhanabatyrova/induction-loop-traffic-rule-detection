@@ -31,8 +31,11 @@ The model was evaluated on both simulated (SUMO/LuST, Luxembourg) and real-world
 *Sliding‑window data processing and prediction workflow.*
 
 ## Key results
-![Simulated data](figures/simulated_ablation.png)
-![Real data](figures/real_data.png)
+Experiments on simulated data 
+<img src="figures/simulated_ablation.png" alt="Pipeline Diagram" width="750"/>
+
+Experiments on real-world data
+<img src="figures/real_data.png" alt="Pipeline Diagram" width="600"/>
 
 ## Research Talk Slides
 To make the paper more accessible, here are slides from an internal lab presentation summarizing the work: 
