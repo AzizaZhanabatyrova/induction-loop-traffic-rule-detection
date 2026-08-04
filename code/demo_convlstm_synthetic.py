@@ -8,7 +8,7 @@ building block described in:
     "Detecting and Classifying Changes in Traffic Rules using
     Induction Loop Data." IEEE BigData 2023.
 
-IMPORTANT — please read before using this in a portfolio/repo:
+IMPORTANT - please read before using this in a portfolio/repo:
   * This is NOT the paper's original implementation or dataset.
   * It does NOT reproduce the paper's reported results (F1 > 80%).
   * Data here is entirely synthetic (random noise + injected shapes),
@@ -34,7 +34,7 @@ import torch.nn.functional as F
 # ---------------------------------------------------------------------
 # 1. A minimal hand-written ConvLSTM cell
 #    (PyTorch has no built-in ConvLSTM2D, unlike TensorFlow/Keras,
-#     so this is implemented directly — same idea as the paper's
+#     so this is implemented directly - same idea as the paper's
 #     stateful ConvLSTM2D bottleneck, simplified to a single cell.)
 # ---------------------------------------------------------------------
 class ConvLSTMCell(nn.Module):
