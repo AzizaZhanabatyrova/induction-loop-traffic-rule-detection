@@ -38,7 +38,7 @@ The model was evaluated on both simulated (SUMO/LuST, Luxembourg) and real-world
 
 For a structural walkthrough of the pipeline from tensor 
 construction through the loss function, see 
-[`pseudocode.md`](pseudocode.md).
+[`code/pseudocode.md`](code/pseudocode.md).
 
 <details>
 <summary>Quick preview</summary>
@@ -51,6 +51,13 @@ construction through the loss function, see
 6. Confidence-weighted prediction aggregation
 
 </details>
+
+## Minimal Demo
+
+A small, from-scratch PyTorch demo (`code/demo_convlstm_synthetic.py`) 
+illustrating the ConvLSTM-based spatio-temporal detection idea from 
+the paper, trained on synthetic data. **Not** the original 
+implementation or dataset - see the file's docstring for details.
 
 ## Key results
 
