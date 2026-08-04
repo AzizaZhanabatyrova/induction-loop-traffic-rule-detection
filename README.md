@@ -26,7 +26,7 @@ The model was evaluated on both simulated (SUMO/LuST, Luxembourg) and real-world
 ## 📊 Research Talk Slides
 To make the paper more accessible, here are slides from an internal lab presentation summarizing the work:
 
-![Title Slide](slides/title.png)  
+![Title Slide](figures/method.png)  
 [Download Full Slides (PDF)](slides/presentation.pdf)
 
 ## Citation
