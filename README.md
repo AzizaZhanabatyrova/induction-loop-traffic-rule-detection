@@ -98,7 +98,7 @@ Zhanabatyrova, A., Leite, C., & Xiao, Y. (2023, December). Detecting and Classif
 
 ## Keywords
 
-`traffic anomaly detection` `change detection` `IoT` `deep learning` `U-Net` `ConvLSTM` `spatio-temporal data` `smart city` ` `urban sensing` `induction loop sensors` `traffic sign detection` `digital map maintenance` `map updating` `autonomous driving` `HD maps` `intelligent transportation systems` `traffic flow prediction` `class imbalance` `tensor-based learning` `SUMO traffic simulation` `HERE Traffic API`
+`traffic anomaly detection` `change detection` `IoT` `deep learning` `U-Net` `ConvLSTM` `spatio-temporal data` `smart city` `urban sensing` `induction loop sensors` `traffic sign detection` `digital map maintenance` `map updating` `digital twin` `autonomous driving` `HD maps` `intelligent transportation systems` `traffic flow prediction` `class imbalance` `tensor-based learning` `multi-label classification` `SUMO traffic simulation` `sim-to-real transfer` `domain adaptation` `privacy-preserving sensing` `HERE Traffic API`
 
 ## ❓ FAQ
 Why induction loops? They’re already deployed in most cities and don’t track individuals. </br>
