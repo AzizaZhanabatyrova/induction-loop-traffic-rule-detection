@@ -1,2 +1,47 @@
-# induction-loop-traffic-rule-detection
-Detecting and classifying traffic rule changes from induction loop sensor data - IEEE BigData 2023.
+# Detecting and Classifying Traffic Rule Changes from Induction Loop Data
+
+**Deep learning for smart city map maintenance: detecting road blockages and traffic sign changes from urban sensor data - without cameras or GPS traces.**
+
+📄 Published paper: [IEEE Xplore](https://doi.org/10.1109/BigData59044.2023.10386419) · *Proceedings of the 2023 IEEE International Conference on Big Data (BigData 2023)*
+
+---
+
+## Overview
+
+Keeping digital road maps accurate for navigation apps, autonomous vehicles, and smart city systems usually depends on expensive methods like satellite imagery or street-view cameras. This project explores a cheaper, privacy-preserving alternative: using existing **induction loop sensors** (already embedded in roads for traffic management) to automatically detect and classify changes in traffic rules.
+
+We designed a deep learning pipeline (based on a modified U-Net with spatio-temporal components) that takes in city-wide traffic flow data (vehicle speed and road occupancy) and predicts:
+- Road or lane blockages
+- Speed limit changes
+- New turn restrictions (left, right, U-turn, straight-only)
+
+The model was evaluated on both simulated (SUMO/LuST, Luxembourg) and real-world (HERE Traffic API) data, achieving F1-scores above 80% in detection and over 75% in multi-class classification, despite challenges like sparse sensor coverage, high-dimensional input, and severe class imbalance.
+
+## Why this matters
+
+- **Cost-effective**: no need for camera fleets or manual surveying — induction loops are already deployed in most cities
+- **Privacy-preserving**: unlike GPS traces from taxis/buses, this approach doesn't track individual vehicles
+- **Applicable to**: autonomous driving map maintenance, smart city infrastructure monitoring, urban traffic anomaly detection, digital twin systems
+
+## Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@inproceedings{zhanabatyrova2023detecting,
+  title={Detecting and Classifying Changes in Traffic Rules using Induction Loop Data},
+  author={Zhanabatyrova, Aziza and Leite, Clayton and Xiao, Yu},
+  booktitle={2023 IEEE International Conference on Big Data (BigData)},
+  pages={1248--1255},
+  year={2023},
+  organization={IEEE}
+}
+```
+
+## Keywords
+
+`traffic anomaly detection` `change detection` `deep learning` `U-Net` `ConvLSTM` `spatio-temporal data` `smart city` `urban sensing` `induction loop sensors` `traffic sign detection` `digital map maintenance` `map updating` `autonomous driving` `HD maps` `intelligent transportation systems` `traffic flow prediction` `class imbalance` `tensor-based learning` `SUMO traffic simulation` `HERE Traffic API`
+
+---
+
+*This repository accompanies the published paper above. For questions about the method or data, feel free to open an issue.*
