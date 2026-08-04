@@ -27,7 +27,7 @@ The model was evaluated on both simulated (SUMO/LuST, Luxembourg) and real-world
 
 If you find this work useful, please cite:
 
-BIBTEX
+###BIBTEX
 ```bibtex
 @inproceedings{zhanabatyrova2023detecting,
   title={Detecting and Classifying Changes in Traffic Rules using Induction Loop Data},
@@ -38,7 +38,7 @@ BIBTEX
   organization={IEEE}
 }
 ```
-APA
+###APA
 ```apa
 Zhanabatyrova, A., Leite, C., & Xiao, Y. (2023, December). Detecting and Classifying Changes in Traffic Rules using Induction Loop Data. In 2023 IEEE International Conference on Big Data (BigData) (pp. 1248-1255). IEEE.
 ```
