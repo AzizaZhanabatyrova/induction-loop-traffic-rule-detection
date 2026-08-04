@@ -103,6 +103,7 @@ Zhanabatyrova, A., Leite, C., & Xiao, Y. (2023, December). Detecting and Classif
 ## ❓ FAQ
 Why induction loops? They’re already deployed in most cities and don’t track individuals. </br>
 Can this run in real time? The current pipeline processes data in offline batches; the paper's Section V-D discusses potential directions like handling transient change dynamics and closing the simulated-to-real domain gap.
+**Could this run in a distributed/edge setup instead of centrally?** The model's spatial decomposition into overlapping sliding windows (Section III-B) maps naturally onto distributed processing — each city region could be handled by a local edge node, exchanging only the boundary/overlap information needed to preserve cross-region context, rather than streaming all induction loop data to one central server. The current implementation runs centrally on a single GPU; distributed deployment is a promising extension, not something evaluated in the paper.
 
 ## 📬 Contact
 **Google Scholar** [https://scholar.google.com/](https://scholar.google.com/citations?user=2mTrGJMAAAAJ&hl=en)
