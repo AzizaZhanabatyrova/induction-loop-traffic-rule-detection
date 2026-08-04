@@ -2,6 +2,8 @@
 
 **Deep learning for smart city map maintenance: detecting road blockages and traffic sign changes from urban sensor data - without cameras or GPS traces.**
 
+**Stack:** Python · TensorFlow · U-Net · ConvLSTM · SUMO
+
 📄 Published paper: [IEEE Xplore](https://doi.org/10.1109/BigData59044.2023.10386419) · *Proceedings of the 2023 IEEE International Conference on Big Data (BigData 2023)*
 
 ---
@@ -91,7 +93,7 @@ Zhanabatyrova, A., Leite, C., & Xiao, Y. (2023, December). Detecting and Classif
 
 ## ❓ FAQ
 Why induction loops? They’re already deployed in most cities and don’t track individuals. </br>
-Can this run in real time? Future work includes optimizing SLAM integration for real‑time performance.
+Can this run in real time? The current pipeline processes data in offline batches; the paper's Section V-D discusses potential directions like handling transient change dynamics and closing the simulated-to-real domain gap.
 
 ## 📬 Contact
 **Google Scholar**  
@@ -99,6 +101,8 @@ Can this run in real time? Future work includes optimizing SLAM integration for 
 
 <strong>Email:</strong> <a href="mailto:zhanabatyrova@gmail.com">zhanabatyrova@gmail.com</a>
 
+**LinkedIn**  
+[https://www.linkedin.com/]([https://scholar.google.com/citations?user=2mTrGJMAAAAJ&hl=en](https://www.linkedin.com/in/azizazhanabatyrova/)
 ---
 
 *This repository accompanies the published paper above. For questions about the method or data, feel free to open an issue.*
