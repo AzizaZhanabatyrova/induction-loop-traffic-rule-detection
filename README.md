@@ -31,6 +31,7 @@ The model was evaluated on both simulated (SUMO/LuST, Luxembourg) and real-world
 *Sliding‑window data processing and prediction workflow.*
 
 ## Key results
+
 Experiments on simulated data 
 
 <img src="figures/simulated_ablation.png" alt="Pipeline Diagram" width="750"/>
@@ -38,6 +39,9 @@ Experiments on simulated data
 Experiments on real-world data 
 
 <img src="figures/real_data.png" alt="Pipeline Diagram" width="600"/>
+
+Achieved F1‑scores above 80% in detection and over 75% in multi‑class classification, validated on both simulated (SUMO/LuST, Luxembourg) and real‑world (HERE Traffic API) datasets.
+
 
 ## Research Talk Slides
 To make the paper more accessible, here are slides from an internal lab presentation summarizing the work: 
