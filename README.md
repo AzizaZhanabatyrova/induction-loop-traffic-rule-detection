@@ -25,7 +25,6 @@ The model was evaluated on both simulated (SUMO/LuST, Luxembourg) and real-world
 
 ## 📊 Visual Highlights
 ![Induction Loop Detector](figures/induction_loop.png) 
-
 *Illustration of how induction loops detect passing or stationary vehicles.*
 
 ![Pipeline Overview](figures/method.png) 
