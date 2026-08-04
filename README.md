@@ -35,6 +35,7 @@ Experiments on simulated data
 <img src="figures/simulated_ablation.png" alt="Pipeline Diagram" width="750"/>
 
 Experiments on real-world data
+
 <img src="figures/real_data.png" alt="Pipeline Diagram" width="600"/>
 
 ## Research Talk Slides
